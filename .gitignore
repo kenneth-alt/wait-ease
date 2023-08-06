@@ -2,3 +2,4 @@ db
 venv
 .env
 __pycache__
+static/qr_codes
