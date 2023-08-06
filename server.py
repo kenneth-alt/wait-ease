@@ -294,7 +294,7 @@ def add_queue():
         attendees_table_name = f"{queue_name.replace(' ', '_')}_attendees"
         create_table_query = f"""
             CREATE TABLE {attendees_table_name} (
-                id INT AUTO_INCREMENT PRIMARY KEY,
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
                 first_name VARCHAR(255),
                 last_name VARCHAR(255),
                 account_number VARCHAR(255),
