@@ -7,5 +7,4 @@ flask-wtf
 flask-mysqldb
 passlib
 flask-uploads
-functools
 qrcode
