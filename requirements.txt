@@ -7,3 +7,4 @@ flask-wtf
 passlib
 flask-uploads
 qrcode
+email_validator
