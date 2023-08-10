@@ -318,7 +318,7 @@ def add_queue():
         qr_img = qr.make_image()
 
         # Save QR code image
-        qr_img_path = f"./static/qr_codes/{queue_id}_qr_code.png"
+        qr_img_path = f"static/qr_codes/{queue_id}_qr_code.png"
         qr_img.save(qr_img_path)
     
         # Close connection
