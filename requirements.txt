@@ -4,7 +4,6 @@ requests
 flask-bootstrap
 wtforms
 flask-wtf
-flask-mysqldb
 passlib
 flask-uploads
 qrcode
