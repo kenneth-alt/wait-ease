@@ -17,7 +17,7 @@ Bootstrap(app)
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 
 # Config SQLite
-app.config['DATABASE'] = 'queue_app.db'
+app.config['DATABASE'] = 'db/queue_app.db'
 
 def get_db():
     db = getattr(g, '_database', None)
